@@ -29,9 +29,9 @@ const Footer = () => {
             <li>Services</li>
             <li>Documentation</li>
             <li>Design</li>
-            <li>Themes</li>
-            <li>Illustrations</li>
-            <li>UI Kit</li>
+            <li>Frontend Development</li>
+            <li>Backend services</li>
+            <li>Dev-ops</li>
           </ul>
         </div>
         <div><ul>
@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
       </section>
       <section className="flex justify-center align-center h-10">
-        <p className="mt-8">Copyright © 2019. Moonfo with love.</p>
+        <p className="mt-8">Copyright © 2023. Blog App.</p>
       </section>
     </footer>
   );
