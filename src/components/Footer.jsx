@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="container mx-auto grid grid-cols-10 px-5 py-10 gap-y-10 gap-x-5 md:pt-20 md:grid-cols-12 lg:grid-cols-10 lg:gap-x-10">
        <div>
           <div>
-            <img className="w-16" src={Logo} alt="logo" />
+            <img className="w-16  rounded-full" src={Logo} alt="logo" />
           </div>
           <section className="col-span-5 md:col-span-4 lg:col-span-2 text-dark-light font-bold md:text-lg">
           <p className="text-sm text-dark-light text-center mt-4 md:text-left md:text-base lg:text-sm"> Build a modern and creative website with us.</p>
