@@ -11,7 +11,7 @@ const Footer = () => {
             <img className="w-16" src={Logo} alt="logo" />
           </div>
           <div className="mt-8">
-          <p> Build a modern and creative <br /> website with moonfo </p>
+          <p> Build a modern and creative <br /> website with us. </p>
           </div>
         </div>
         <div>
@@ -54,7 +54,6 @@ const Footer = () => {
       </section>
       <section className="flex justify-center align-center h-10">
         <p className="mt-8">Copyright © 2019. Moonfo with love.</p>
-
       </section>
     </footer>
   );
