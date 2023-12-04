@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
       </section>
       <section className="flex justify-center align-center h-10">
-        <p className="mt-8">Copyright © 2023. Blog App.</p>
+        <p className="mt-8 bg-white h-6">Copyright © 2023. Blog App.</p>
       </section>
     </footer>
   );
