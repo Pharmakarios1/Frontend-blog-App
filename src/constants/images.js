@@ -12,6 +12,7 @@ const images = {
     CtaImage,
     
     
+    
 };
 
 export default images;
