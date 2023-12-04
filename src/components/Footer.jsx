@@ -8,7 +8,7 @@ const Footer = () => {
       <section className="flex justify-between align-center text-[#959EAD]">
         <div>
           <div>
-            <img className="w-16" src={Logo} alt="logo" />
+            <img className="w-16  rounded-full" src={Logo} alt="logo" />
           </div>
           <div className="mt-8">
           <p> Build a modern and creative <br /> website with us. </p>
