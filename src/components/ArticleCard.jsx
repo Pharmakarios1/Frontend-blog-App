@@ -10,7 +10,7 @@ const ArticleCard = ({className}) => {
         <h2 className='font-roboto font-bold text-xl text-dark-soft md:text-2xl lg:text-[28px]'>Blog Expediture</h2>
         <p className='text-dark-light mt-3 text-sm md:text-lg '>Majority of peole will work in jobs that don’t exist today.</p>
         <div className='flex justify-between flex-nowrap item-center mt-6'>
-        <div className='flex item-center gap-x-2 md: gap-x-2.5 '>
+        <div className='flex item-center gap-x-2 md:gap-x-2.5 '>
             <img src={images.PostProfileImage} alt="Post profile"className='w-9 h-9 md:w-10 md:h-10' />
             <div className='flex flex-col'>
                 <h4 className='font-bold italic text-dark-soft text-sm md:text-base'>
@@ -24,7 +24,7 @@ const ArticleCard = ({className}) => {
                     </div>
                 </div>
             </div>
-        <span className='font-bold text-dark-light italic text-sm md:text-base'>02 May</span>
+        <span className='font-bold text-dark-light italic text-sm md:text-base'>02 December</span>
     </div>
 </div>
  </div>
