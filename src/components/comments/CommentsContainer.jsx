@@ -1,15 +1,18 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { getCommentsData } from '../../data/comments';
 import CommentsForm from './CommentsForm'
 
-const CommentsContainer = ({className}) => {
-    const [comments, setcomments] = useState([])
+const CommentsContainer = ({ className }) => {
+    const [comments, setComments] = useState([]);
     
-    console.log(comments)
+    console.log(comments);
 
     useEffect(() => {
-        (async() => {})()
-    }, []);
+        (async() => {
+          const commentData = await getCommentsData();
+          setComments(commentData)
+        })()
+        }, []);
 
     const addCommentHandler = (value, parent = null, replyOnUser = null) => {
         const newComment = {
@@ -32,4 +35,4 @@ const CommentsContainer = ({className}) => {
   )
 }
 
-export default CommentsContainer
+export default CommentsContainer;
