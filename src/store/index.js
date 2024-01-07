@@ -1,11 +1,20 @@
 import { configureStore } from "@reduxjs/toolkit";
 
+import { userReducer } from "./reducers/userReducers";
 
-import userReducers from "./reducers/userReducers";
+const userInfoFromStorage = localStorage.getItem("account")
+  ? JSON.parse(localStorage.getItem("account"))
+  : null;
+
+const initialState = {
+  user: { userInfo: userInfoFromStorage },
+};
 
 const store = configureStore({
-    reducer: {
-    user: userReducers,    
-    },
+  reducer: {
+    user: userReducer,
+  },
+  preloadedState: initialState,
 });
+
 export default store;
